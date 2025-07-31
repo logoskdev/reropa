@@ -1,12 +1,66 @@
-# React + Vite
+# 👕 Reropa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Reropa** es una plataforma web creada con **React + Vite**, enfocada en el intercambio, venta y promoción de ropa de segunda mano. Esta es una iniciativa personal, en desarrollo activo, con el objetivo de convertirse en un negocio real, sostenible y con impacto.
 
-Currently, two official plugins are available:
+> ⚠️ Este es un proyecto **privado** y en construcción. Todos los derechos reservados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías usadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Vite](https://vitejs.dev/) – entorno de desarrollo rápido
+- [React](https://react.dev/) – librería para construir interfaces
+- [Firebase](https://firebase.google.com/) – autenticación y backend en la nube
+- [GitHub](https://github.com/logoskdev/reropa) – repositorio privado
+
+---
+
+## 📁 Estructura del proyecto
+
+reropa/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── context/
+│ ├── hooks/
+│ ├── firebase/
+│ └── styles/
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+yaml
+Copiar
+Editar
+
+---
+
+## 🛠️ Estado actual
+
+- ✅ Autenticación con Google configurada
+- ✅ Subida de imágenes con Firebase
+- ✅ Formulario para publicar productos
+- 🕒 Sistema de perfil de usuario en progreso
+- 🕒 Panel para editar y gestionar publicaciones
+
+---
+
+## 🧠 Objetivo
+
+Construir una plataforma fácil, rápida y visualmente amigable para conectar personas que desean **intercambiar o vender ropa usada**, fomentando la **moda circular** y reduciendo el impacto ambiental.
+
+---
+
+## ⚙️ Cómo correrlo localmente
+
+```bash
+git clone https://github.com/logoskdev/reropa.git
+cd reropa
+npm install
+npm run dev
+📫 Contacto
+Este proyecto es propiedad de Juan Moreno.
+No está autorizado su uso, copia o distribución sin permiso.

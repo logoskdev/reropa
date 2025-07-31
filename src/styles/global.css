@@ -1,0 +1,122 @@
+/* src/global.css */
+
+:root {
+  --color-bg-light: #f9f9f9;
+  --color-bg-dark: #121212;
+  --color-text-light: #000000;
+  --color-text-dark: #ffffff;
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-accent: #17a2b8;
+  --font-main: 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+body.dark {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
+
+/* App Title */
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+body.dark .product-card {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #333;
+}
+
+/* Responsive container */
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Modo oscuro para inputs y formularios */
+body.dark input,
+body.dark select,
+body.dark textarea {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #555;
+}
+
+body.
